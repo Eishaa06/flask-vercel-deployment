@@ -1,4 +1,4 @@
-name: Deploy to Vercel
+=name: Deploy to Vercel
 
 on:
   push:
@@ -16,4 +16,3 @@ jobs:
         uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
